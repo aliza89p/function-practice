@@ -18,3 +18,12 @@ function sumAndMultiply(sumAndMultiplyNumOne, sumAndMultiplyNumTwo, sumAndMultip
   console.log('The numbers ' + sumAndMultiplyNumOne + ' and ' + sumAndMultiplyNumTwo + ' and ' + sumAndMultiplyNumThree + ' have a product of ' + multiplyResult + '.');
   return sumAndMultiplyArray;
 }
+
+function sumArray(theirArray){
+  var sum = 0;
+  for (var i = 0; i < theirArray.length; i++){
+    sum = sum + theirArray[i];
+  }
+  console.table(theirArray);
+  console.log(theirArray + ' was passed in as an array of numbers, and ' + sum + ' is their sum.');
+}

@@ -18,3 +18,7 @@ Enter sumAndMultiply(numOne, numTwo, numThree); in console.
 -Commented out console.log();
 -Needed to return previous functions to call them in this function.
 -This function will return the sum and the product in an array and console.log what happened.
+##SumArray Function
+Run this function with an array of numerical elements.
+-This function will run a for loop to run through the numbers in the array and add them together.
+-This will then console log the array numbers and the their sum.
