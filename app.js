@@ -19,7 +19,7 @@ function sumAndMultiply(sumAndMultiplyNumOne, sumAndMultiplyNumTwo, sumAndMultip
   return sumAndMultiplyArray;
 }
 
-function sumArray(theirMultiplyArray){
+function sumArray(theirArray){
   var sum = 0;
   for (var i = 0; i < theirArray.length; i++){
     sum = sum + theirArray[i];
