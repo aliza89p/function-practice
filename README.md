@@ -21,4 +21,8 @@ Enter sumAndMultiply(numOne, numTwo, numThree); in console.
 ##SumArray Function
 Run this function with an array of numerical elements.
 -This function will run a for loop to run through the numbers in the array and add them together.
--This will then console log the array numbers and the their sum.
+-This will then show in the console the array numbers and the their sum.
+##multiplyArray Function
+Run this function with an array of numerical elements.
+-This function will run a for loop to run through the numbers in the array and multiply them together.
+-This will then show in the console the array numbers and the their sum.

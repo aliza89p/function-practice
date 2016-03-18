@@ -19,11 +19,20 @@ function sumAndMultiply(sumAndMultiplyNumOne, sumAndMultiplyNumTwo, sumAndMultip
   return sumAndMultiplyArray;
 }
 
-function sumArray(theirArray){
+function sumArray(theirMultiplyArray){
   var sum = 0;
   for (var i = 0; i < theirArray.length; i++){
     sum = sum + theirArray[i];
   }
   console.table(theirArray);
   console.log(theirArray + ' was passed in as an array of numbers, and ' + sum + ' is their sum.');
+}
+
+function multiplyArray(theirMultiplyArray){
+  var product = 1;
+  for (var i = 0; i < theirMultiplyArray.length; i++){
+    product = product * theirMultiplyArray[i];
+  }
+  console.table(theirMultiplyArray);
+  console.log('The numbers ' + theirMultiplyArray + ' have a product of ' + product + '.');
 }
